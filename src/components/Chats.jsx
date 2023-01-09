@@ -3,7 +3,6 @@ import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import { ChatContext } from '../context/ChatContext';
 import { db } from '../firebase';
-import Add from '../img/add.png';
 
 const Chats = () => {
   const [chats, setChats] = useState([]);

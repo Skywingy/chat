@@ -1,8 +1,6 @@
 import React, { useContext, useEffect, useRef } from 'react';
 import { AuthContext } from '../context/AuthContext';
 import { ChatContext } from '../context/ChatContext';
-import Add from '../img/add.png';
-import pic from '../img/Profile1.png'
 
 const Message = ({message}) => {
   const {currentUser} = useContext(AuthContext);
